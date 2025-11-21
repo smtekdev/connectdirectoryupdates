@@ -1,0 +1,126 @@
+.navbar {
+    background: #0f172a;
+    padding: 12px 0;
+    border-bottom: 1px solid #334155;
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Left Side - Support Email */
+.nav-left .support-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #cbd5e0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-left .support-email i {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.nav-left .support-email span {
+    transition: color 0.3s;
+}
+
+.nav-left .support-email:hover span {
+    color: #63b3ed;
+}
+
+/* Right Side - Social Icons */
+.nav-right .nav-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 30%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #cbd5e0;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* Specific icon colors on hover */
+/* .nav-icon:nth-child(1):hover {
+    background: #1877f2;
+    border-color: #1877f2;
+}
+
+.nav-icon:nth-child(2):hover {
+    background: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.nav-icon:nth-child(3):hover {
+    background: #0077b5;
+    border-color: #0077b5;
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 0 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .nav-left .support-email {
+        font-size: 13px;
+    }
+    
+    .nav-icons {
+        gap: 12px;
+    }
+    
+    .nav-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 0;
+    }
+    
+    .nav-left .support-email {
+        font-size: 12px;
+    }
+    
+    .nav-icons {
+        gap: 10px;
+    }
+    
+    .nav-icon {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .nav-icon i {
+        font-size: 12px;
+    }
+}

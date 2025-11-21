@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Connect Directory</title>
+
+  <!-- Fonts & Icons -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;600;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+  <!-- Topbar -->
+  <div class="topbar container">
+    <div>
+      <i class="fa-solid fa-envelope"></i>
+      <a href="#">support@connect767.com</a>
+    </div>
+    <div class="social">
+      <a href="#" aria-label="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="x"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" aria-label="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <div class="nav">
+    <div class="container nav-wrap">
+      <a class="brand" href="#"><span class="logo"><i class="fa-solid fa-location-dot"></i></span><span></span></a>
+      <div class="nav-actions">
+        <button class="btn ghost hide-sm"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+        <button class="btn ghost hide-sm"><i class="fa-solid fa-user-plus"></i> Register</button>
+        <button class="btn primary"><i class="fa-solid fa-circle-plus"></i> Add Business</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-img"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <span class="badge"><i class="fa-solid fa-magnifying-glass-location"></i> Search • Hire • Review</span>
+      <h1>Find trusted local businesses near you</h1>
+      <p class="sub">Discover top-rated pros across home services, events, health, tech, and more.</p>
+
+      <form class="search-wrap" onsubmit="event.preventDefault(); alert('Demo search submitted!');">
+        <label class="field" aria-label="business or service">
+          <i class="fa-solid fa-briefcase"></i>
+          <input type="text" placeholder="Business…" />
+        </label>
+        
+        <label class="field" aria-label="Category">
+          <i class="fa-solid fa-list"></i>
+          <input type="text" placeholder="Categories" />
+        </label>
+        <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+      </form>
+    </div>
+  </header>
+
+  <!-- About (NEW premium section) -->
+  <section class="about">
+    <div class="container">
+      <div class="section-head">
+        <h2>About Connect Directory</h2>
+      </div>
+
+      <div class="about-wrap">
+        <div class="about-left">
+          <p class="lead">We’re the modern way to discover reliable local businesses—fast, transparent, and built for
+            trust.</p>
+
+          <div class="pill-row">
+            <span class="pill"><i class="fa-solid fa-shield-heart"></i> Verified Pros</span>
+            <span class="pill"><i class="fa-solid fa-star"></i> Real Reviews</span>
+            <span class="pill"><i class="fa-solid fa-bolt"></i> Instant Search</span>
+            <span class="pill"><i class="fa-solid fa-map-location-dot"></i> City-wise Coverage</span>
+          </div>
+
+          <div class="about-features">
+            <div class="feat">
+              <div class="ico"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div>
+                <h4>Smart Matching</h4>
+                <p>Filters & rankings highlight the right pros for your needs—no noise.</p>
+              </div>
+            </div>
+            <div class="feat">
+              <div class="ico"><i class="fa-solid fa-user-shield"></i></div>
+              <div>
+                <h4>Trust & Safety</h4>
+                <p>Verification badges and anti-spam systems keep listings clean.</p>
+              </div>
+            </div>
+            <div class="feat">
+              <div class="ico"><i class="fa-solid fa-chart-line"></i></div>
+              <div>
+                <h4>Growth for Businesses</h4>
+                <p>SEO-friendly profiles and top placement for high-rated pros.</p>
+              </div>
+            </div>
+            <div class="feat">
+              <div class="ico"><i class="fa-solid fa-headset"></i></div>
+              <div>
+                <h4>Support that Cares</h4>
+                <p>Real people, fast replies, and clear policies—no dark patterns.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cta">
+            <button class="btn accent"><i class="fa-solid fa-circle-plus"></i> List Your Business</button>
+            <button class="btn soft"><i class="fa-solid fa-circle-info"></i> Learn More</button>
+          </div>
+        </div>
+
+        <aside class="about-right">
+          <div class="about-media">
+            <img src="assets/images/1780e6c8ae.jpg" alt="About Connect Directory">
+          </div>
+          <div class="about-body">
+            <div class="trust">
+              <span class="badge"><i class="fa-solid fa-shield-check"></i> Trusted by cities</span>
+              <span class="badge"><i class="fa-solid fa-badge-check"></i> Verified listings</span>
+            </div>
+            <div class="mini-stats">
+              <div class="mini">
+                <div class="n">48k+</div>
+                <div class="l">Active Listings</div>
+              </div>
+              <div class="mini">
+                <div class="n">1.2k</div>
+                <div class="l">Cities</div>
+              </div>
+              <div class="mini">
+                <div class="n">350k+</div>
+                <div class="l">Reviews</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Categories -->
+<!-- Popular Categories -->
+<section class="container">
+  <div class="section-head">
+    <h2>Popular Categories</h2>
+    <a class="proc-cta" href="#"><i class="fa-solid fa-circle-plus"></i> Get Started</a>
+  </div>
+
+  <!-- Swiper Container -->
+  <div class="swiper myBizSwiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="business-card">
+          <div class="business-header">
+            <div class="business-info">
+              <h3 class="business-name">Signal Band</h3>
+              <span class="business-category">Music & Entertainment</span>
+            </div>
+            <div class="business-rating">
+              <i class="fas fa-star"></i><span>4.8</span>
+            </div>
+          </div>
+
+          <div class="business-body">
+            <p class="business-description">
+              Signal Band is a vibrant group delivering live music for weddings,
+              events, and corporate shows.
+          
+            </p>
+            <div class="business-contact">
+              <i class="fas fa-globe"></i>
+              <span>https://zhaoo.legnainbehand@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="business-footer">
+            <div class="business-location">
+              <i class="fas fa-map-marker-alt"></i> New York, USA
+            </div>
+            <a href="#" class="view-profile">View Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="business-card">
+          <div class="business-header">
+            <div class="business-info">
+              <h3 class="business-name">Yuri A Jones</h3>
+              <span class="business-category">Photography</span>
+            </div>
+            <div class="business-rating">
+              <i class="fas fa-star"></i><span>4.9</span>
+            </div>
+          </div>
+
+          <div class="business-body">
+            <p class="business-description">
+              At Yuri A Jones Photography & Videography, we capture your precious
+              moments with style.
+            </p>
+
+            <div class="business-contact">
+              <i class="fas fa-globe"></i>
+              <span>https://de-1234.yuri@yuriajones.com</span>
+            </div>
+          </div>
+
+          <div class="business-footer">
+            <div class="business-location">
+              <i class="fas fa-map-marker-alt"></i> California, USA
+            </div>
+            <a href="#" class="view-profile">View Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="business-card">
+          <div class="business-header">
+            <div class="business-info">
+              <h3 class="business-name">Nadja Odi Thomas</h3>
+              <span class="business-category">Visual Media</span>
+            </div>
+            <div class="business-rating">
+              <i class="fas fa-star"></i><span>4.7</span>
+            </div>
+          </div>
+
+          <div class="business-body">
+            <p class="business-description">
+              At Nadja Odi Thomas, we craft creative visual content that inspires
+              and connects with your audience.
+            </p>
+
+            <div class="business-contact">
+              <i class="fas fa-globe"></i>
+              <span>https://saoidea.nadjaa.homas@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="business-footer">
+            <div class="business-location">
+              <i class="fas fa-map-marker-alt"></i> California, USA
+            </div>
+            <a href="#" class="view-profile">View Profile</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="swiper-slide">
+        <div class="business-card">
+          <div class="business-header">
+            <div class="business-info">
+              <h3 class="business-name">Nadja Odi Thomas</h3>
+              <span class="business-category">Visual Media</span>
+            </div>
+            <div class="business-rating">
+              <i class="fas fa-star"></i><span>4.7</span>
+            </div>
+          </div>
+
+          <div class="business-body">
+            <p class="business-description">
+              At Nadja Odi Thomas, we craft creative visual content that inspires
+              and connects with your audience.
+            </p>
+
+            <div class="business-contact">
+              <i class="fas fa-globe"></i>
+              <span>https://saoidea.nadjaa.homas@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="business-footer">
+            <div class="business-location">
+              <i class="fas fa-map-marker-alt"></i> California, USA
+            </div>
+            <a href="#" class="view-profile">View Profile</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Custom Arrows (FOR THIS SLIDER ONLY) -->
+    <div class="biz-prev"></div>
+    <div class="biz-next"></div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
+  </div>
+</section>
+
+
+
+
+
+  <!-- Reviews Carousel -->
+  <section class="biz-section container">
+    <div class="section-head">
+      <h2>Businesses With Recent Reviews</h2>
+      <a class="proc-cta" href="#"><i class="fa-solid fa-circle-plus"></i> Get Started</a>
+    </div>
+    <div class="swiper bizSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide biz-card">
+          <div class="biz-inner">
+            <div class="biz-logo"><img src="assets/images/0f93cb26ed.jpg" alt="Capital Glass" /></div>
+            <h3>Trusted by Locals</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+            <p class="meta">See what customers are saying about trusted local businesses across the U.S.</span></p>
+          </div>
+        </div>
+        <div class="swiper-slide biz-card">
+          <div class="biz-inner">
+            <div class="biz-logo"><img src="assets/images/08b82a9dd6.jpg" alt="Ameridial Inc" /></div>
+            <h3>What Customers Are Saying</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i
+                class="fa-regular fa-star"></i></div>
+            <p class="meta">See what customers are saying about trusted local businesses across the U.S.</p>
+          </div>
+        </div>
+        <div class="swiper-slide biz-card">
+          <div class="biz-inner">
+            <div class="biz-logo"><img src="assets/images/081edbaaf3.jpg" alt="Roof Masters" /></div>
+            <h3>People’s Choice Businesses</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+            <p class="meta">See what customers are saying about trusted local businesses across the U.S.</p>
+          </div>
+        </div>
+        <div class="swiper-slide biz-card">
+          <div class="biz-inner">
+            <div class="biz-logo"><img src="assets/images/3dfdfeb7ec.jpg" alt="SWFL Carpenters" /></div>
+            <h3>Real Reviews, Real Results</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+            <p class="meta">See what customers are saying about trusted local businesses across the U.S.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <!-- Work Process + Counters -->
+  <section class="container process v2">
+    <div class="section-head">
+      <h2>Our Work Process</h2>
+      <a class="proc-cta" href="#"><i class="fa-solid fa-circle-plus"></i> Get Started</a>
+    </div>
+
+    <div class="proc-grid">
+      <article class="proc-card" data-step="1">
+        <div class="proc-top"><span class="step-badge">01</span>
+          <div class="ico-wrap"><i class="fa-solid fa-magnifying-glass-location"></i></div>
+        </div>
+        <h3>Discover</h3>
+        <p class="p-text">Search verified pros by location & category. Apply filters to find the best match quickly.</p>
+        <div class="tags"><span class="chip sm">Verified</span><span class="chip sm">Smart Filters</span><span
+            class="chip sm">Fast</span></div>
+      </article>
+      <article class="proc-card" data-step="2">
+        <div class="proc-top"><span class="step-badge">02</span>
+          <div class="ico-wrap"><i class="fa-solid fa-scale-balanced"></i></div>
+        </div>
+        <h3>Compare</h3>
+        <p class="p-text">Check ratings, reviews, and portfolios. Shortlist the top candidates in minutes.</p>
+        <div class="tags"><span class="chip sm">Ratings</span><span class="chip sm">Reviews</span><span
+            class="chip sm">Portfolio</span></div>
+      </article>
+      <article class="proc-card" data-step="3">
+        <div class="proc-top"><span class="step-badge">03</span>
+          <div class="ico-wrap"><i class="fa-solid fa-message"></i></div>
+        </div>
+        <h3>Contact</h3>
+        <p class="p-text">Reach out via call or message. Get quotes and timelines—no hidden fees.</p>
+        <div class="tags"><span class="chip sm">1-Click Call</span><span class="chip sm">Quotes</span><span
+            class="chip sm">Secure</span></div>
+      </article>
+      <article class="proc-card" data-step="4">
+        <div class="proc-top"><span class="step-badge">04</span>
+          <div class="ico-wrap"><i class="fa-solid fa-star-half-stroke"></i></div>
+        </div>
+        <h3>Review</h3>
+        <p class="p-text">Share your experience to help others. We keep reviews clean and spam-free.</p>
+        <div class="tags"><span class="chip sm">Real Feedback</span><span class="chip sm">Anti-Spam</span><span
+            class="chip sm">Community</span></div>
+      </article>
+    </div>
+
+    <div class="proc-counters">
+      <article class="count-card">
+        <div class="count-ico"><i class="fa-solid fa-rectangle-list"></i></div>
+        <div class="count-val" data-target="48000">0</div>
+        <div class="count-label">Active Listings</div>
+      </article>
+      <article class="count-card">
+        <div class="count-ico"><i class="fa-solid fa-city"></i></div>
+        <div class="count-val" data-target="1200">0</div>
+        <div class="count-label">Cities Covered</div>
+      </article>
+      <article class="count-card">
+        <div class="count-ico"><i class="fa-solid fa-comment-dots"></i></div>
+        <div class="count-val" data-target="350000">0</div>
+        <div class="count-label">Verified Reviews</div>
+      </article>
+      <article class="count-card">
+        <div class="count-ico"><i class="fa-solid fa-thumbs-up"></i></div>
+        <div class="count-val" data-target="98">0</div>
+        <div class="count-label">Satisfaction (%)</div>
+      </article>
+    </div>
+  </section>
+
+ <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>Stay updated with the latest businesses and exclusive offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="padding:36px 0 26px">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="#" style="margin-bottom:8px; display:inline-flex"><span class="logo"><i
+                class="fa-solid fa-location-dot"></i></span><span>Connect Directory</span></a>
+          <p style="color:#b8c7e8">Your trusted place to find, hire, and review local businesses in the USA.</p>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Popular Categories</h4>
+          <a href="#">Plumbers</a>
+          <a href="#">Locksmiths</a>
+          <a href="#">Roofers</a>
+          <a href="#">Restaurants</a>
+          <a href="#">IT Services</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Pricing</a>
+          <a href="#">Top Pros</a>
+          <a href="#">FAQs</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+      <hr style="border-color:rgba(148,163,184,.12); margin:24px 0">
+      <div
+        style="display:flex; gap:1rem; justify-content:space-between; align-items:center; color:#93a7cd; font-size:.95rem">
+        <div>© <span id="y"></span> Connect Directory. All rights reserved.</div>
+        <div style="display:flex; gap:.35rem; align-items:center">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-cc-amex"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    // Footer year
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Reviews carousel
+    const swiper = new Swiper(".bizSwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      loop: true,
+      coverflowEffect: { rotate: 20, stretch: 0, depth: 200, modifier: 1.1, slideShadows: true },
+      autoplay: { delay: 2500, disableOnInteraction: false },
+      navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
+    });
+
+    // Reveal + counters (process section)
+    (function () {
+      const revealEls = [...document.querySelectorAll('.proc-card, .count-card')];
+      const counters = document.querySelectorAll('.count-val');
+
+      const easeOut = t => 1 - Math.pow(1 - t, 3);
+      const runCount = el => {
+        const target = parseInt(el.getAttribute('data-target'), 10);
+        const dur = 1200; const start = performance.now();
+        function tick(now) {
+          const p = Math.min((now - start) / dur, 1);
+          el.textContent = Math.floor(easeOut(p) * target).toLocaleString();
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      };
+
+      if (!('IntersectionObserver' in window)) {
+        revealEls.forEach(el => el.classList.add('in'));
+        counters.forEach(runCount);
+        return;
+      }
+
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(ent => {
+          if (ent.isIntersecting) {
+            ent.target.classList.add('in');
+            if (ent.target.classList.contains('count-card')) {
+              const val = ent.target.querySelector('.count-val'); if (val) runCount(val);
+            }
+            io.unobserve(ent.target);
+          }
+        });
+      }, { threshold: .25 });
+
+      revealEls.forEach(el => io.observe(el));
+    })();
+  </script>
+<script>
+  var swiper2 = new Swiper(".myBizSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+
+    navigation: {
+      nextEl: ".biz-next",   // CUSTOM ARROWS
+      prevEl: ".biz-prev"
+    },
+
+    breakpoints: {
+      640: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+</script>
+
+  
+
+</body>
+
+</html>
